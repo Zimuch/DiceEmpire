@@ -74,13 +74,13 @@ if ("admin".equals(userRole)){ %>
         <textarea name="descrizioneLunga" maxlength="500" rows="3" required placeholder="inserisci una descrizione dettagliata"></textarea><br>
 
         <label for="produttore">Produttore:</label><br>
-        <input name="produttore" type="text" maxlength="20" required placeholder="inserisci il produttore"><br>
+        <input name="produttore" type="text" maxlength="20" pattern="^[a-zA-Z0-9 ]{1,20}$" required placeholder="inserisci il produttore"><br>
 
         <label for="eta">Età Consigliata:</label><br>
-        <input name="eta" type="text" maxlength="20" required placeholder="inserisci un'età minima"><br>
+        <input name="eta" type="text" maxlength="20" pattern="^[0-9]{1,2}$" required placeholder="inserisci un'età minima"><br>
 
         <label for="edizione">Numero Edizione:</label><br>
-        <input name="edizione" type="text" maxlength="20" required placeholder="inserisci il numero dell'edizione"><br>
+        <input name="edizione" type="text" maxlength="20" pattern="^[0-9]{1,3}$" required placeholder="inserisci il numero dell'edizione"><br>
 
         <label for="edizioneLimitata">Edizione Limitata?</label><br>
         <select name="edizioneLimitata">
@@ -95,7 +95,7 @@ if ("admin".equals(userRole)){ %>
         <input type="number" step="0.01" name="iva" id="iva"><br>
 
         <label for="quantita">Quantità:</label><br>
-        <input name="quantita" type="number" min="1" value="1" required><br>
+        <input name="quantita" type="number" min="1" max="999" value="1" required><br>
 
         <label for="tipoProdotto">Tipo Prodotto:</label><br>
         <select name="tipoProdotto">
