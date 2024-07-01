@@ -5,8 +5,8 @@
         auth="Container"
         driverClassName="com.mysql.cj.jdbc.Driver"
         type="javax.sql.DataSource"
-        username="peppino"
-        password="peppino"
+        username="root"
+        password="Abdellatif10"
         url="jdbc:mysql://localhost:3306/diceempire?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
 </Context>
 
