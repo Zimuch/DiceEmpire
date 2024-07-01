@@ -6,6 +6,7 @@
 <%@ page import="java.sql.SQLException" %>
 
 <%
+//in base a quelli non null viene fatto il sort, relativamente alle cose scritte sopra
     OrdineModelMD ordineModel = new OrdineModelMD();
     List<Ordine> ordini = null;
 

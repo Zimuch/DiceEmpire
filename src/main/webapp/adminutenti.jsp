@@ -9,7 +9,8 @@
     if ("admin".equals(userRole)) {
         UtenteModelMD utenteModel = new UtenteModelMD();
         List<Utente> utenti = null;
-
+      //viene creata una lista di utenti per renderli iterabili e visualizzabili singolarmente, 
+      //come abbiamo fatto anche nel catalogo con i prodotti 
         try {
             utenti = utenteModel.doRetrieveAll();
         } catch (SQLException e) {

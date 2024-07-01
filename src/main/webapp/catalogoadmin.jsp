@@ -88,6 +88,7 @@
             <th>Tasti Funzione</th>
         </tr>
         <%
+        //iterator permette l'utilizzo di funzioni cone hasNext e next, è importante per questo fondamentalmente
             if (products != null && products.size() != 0) {
                 Iterator<?> it = products.iterator();
                 while (it.hasNext()) {
