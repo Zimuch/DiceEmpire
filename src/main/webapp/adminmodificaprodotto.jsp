@@ -136,7 +136,7 @@ if (prodotto != null) {
 
             <div class="form-group">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" maxlength="30" required placeholder="Inserisci il nome" autofocus value="<%= prodotto.getNome() %>">
+                <input type="text" id="nome" name="nome" maxlength="50" required placeholder="Inserisci il nome" autofocus value="<%= prodotto.getNome() %>">
             </div>
 
             <div class="form-group">
@@ -151,17 +151,17 @@ if (prodotto != null) {
 
             <div class="form-group">
                 <label for="produttore">Produttore:</label>
-                <input type="text" id="produttore" name="produttore" maxlength="20" required placeholder="Inserisci il produttore" value="<%= prodotto.getProduttore() %>">
+                <input type="text" id="produttore" name="produttore" maxlength="30" required placeholder="Inserisci il produttore" value="<%= prodotto.getProduttore() %>">
             </div>
 
             <div class="form-group">
                 <label for="eta">Età Consigliata:</label>
-                <input type="text" id="eta" name="eta" maxlength="20" required placeholder="Inserisci un'età minima" value="<%= prodotto.getEta() %>">
+                <input type="text" id="eta" name="eta" maxlength="2" required placeholder="Inserisci un'età minima" value="<%= prodotto.getEta() %>">
             </div>
 
             <div class="form-group">
                 <label for="edizione">Numero Edizione:</label>
-                <input type="text" id="edizione" name="edizione" maxlength="20" required placeholder="Inserisci il numero dell'edizione" value="<%= prodotto.getEdizione() %>">
+                <input type="text" id="edizione" name="edizione" maxlength="3" required placeholder="Inserisci il numero dell'edizione" value="<%= prodotto.getEdizione() %>">
             </div>
 
         <div class="form-group">
