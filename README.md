@@ -79,12 +79,12 @@ Copy DiceEmpire.war into the Tomcat webapps/ folder:
 ```
 apache-tomcat-9.x\webapps\DiceEmpire.war
 ```
-Start Tomcat:
+▶️ Start Tomcat:
 
-## Windows
+### Windows
 apache-tomcat-9.x\bin\startup.bat
 
-## Linux/Mac
+### Linux/Mac
 apache-tomcat-9.x/bin/startup.sh
 
 ## On Succesfull Startup:
