@@ -15,7 +15,7 @@ The application is built entirely with native Java technologies, without relying
 - 📦 **Order History** — Users can view all past orders
 - 🧾 **Invoice Download** — PDF invoice generation for each completed order
 - 🛠️ **Admin Panel** — Dedicated panel for managing products and orders
-- 
+  
 ## Authors
 The project was developed by:
 
