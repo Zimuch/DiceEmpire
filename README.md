@@ -1,3 +1,5 @@
+https://github.com/user-attachments/assets/22061151-1162-4599-82c4-96475e4bfe8e
+
 # DiceEmpire
 ![English](https://img.icons8.com/color/48/great-britain-circular.png)        
 [Italiano ⬇️](#diceempire-1)
