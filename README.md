@@ -56,11 +56,11 @@ Open the terminal and type the following command:
 ```
 git clone https://github.com/Zimuch/DiceEmpire.git
 ```
-📦 Run with prebuilt .war
+📦 Run with prebuilt .war:
 
 Download the latest release from the Releases page.
 
-🗄️ Database Setup
+🗄️ Database Setup:
 
 Start your MySQL server
 
@@ -72,7 +72,7 @@ Import the provided SQL file:
  
  In MySQL Workbench: Right CLick on "Server" -> "Data Import" -> "Import From Self-Contained File" -> Select "Popolamento Database DiceEmpire v32.sql" -> "Start Import".
 
-🚀 Deploy on Tomcat 9
+🚀 Deploy on Tomcat 9:
 
 Copy DiceEmpire.war into the Tomcat webapps/ folder:
 
@@ -94,7 +94,7 @@ Wait for the confirmation in the log:
 INFO: Server startup in [x] ms
 ```
 
-▶️ Open in browser
+▶️ Open in browser:
 ```
 http://localhost:8080/DiceEmpire/
 ```
