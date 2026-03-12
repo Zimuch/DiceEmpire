@@ -1,5 +1,6 @@
 # DiceEmpire
-![English](https://img.icons8.com/color/48/great-britain-circular.png)
+![English](https://img.icons8.com/color/48/great-britain-circular.png)        
+[Italiano ⬇️](#diceempire-1)
 
 ## Introduction
 **DiceEmpire** is a full-stack web e-commerce application developed as a university project for the **Web Software Technologies (TSW)** course. The platform allows users to browse a product catalog, manage a shopping cart, and complete purchases through a simulated payment system.
@@ -71,7 +72,7 @@ Create a new database with the name "diceempire"
 
 Import the provided SQL file:
 
- Search in "Database" the file "Popolamento Database DiceEmpire v32.sql" and download it.
+ Search in the project the folder "Database", find the file "Popolamento Database DiceEmpire v32.sql" and download it.
  
  In MySQL Workbench: Right CLick on "Server" -> "Data Import" -> "Import From Self-Contained File" -> Select "Popolamento Database DiceEmpire v32.sql" -> "Start Import".
 
@@ -113,3 +114,118 @@ the project was attended by:
 This project is provided for informational and academic purposes only.
 The author assumes no responsibility for any misuse or damages arising from the use of this software.
 The simulated payment system does not process real transactions and is intended solely for demonstration purposes.
+
+
+# DiceEmpire
+![Italiano](https://img.icons8.com/color/48/italy-circular.png)
+
+## Introduzione
+**DiceEmpire** è un'applicazione web e-commerce full-stack sviluppata come progetto universitario per il corso di **Tecnologie Software per il Web (TSW)**. La piattaforma consente agli utenti di navigare un catalogo prodotti, gestire un carrello e completare acquisti tramite un sistema di pagamento simulato.
+
+Il progetto nasce dall'esigenza di esplorare il ciclo completo di sviluppo di un'applicazione web, dalla progettazione del database alla logica server-side fino al rendering front-end. L'obiettivo era costruire un'esperienza e-commerce realistica applicando i concetti appresi durante il corso.
+
+L'applicazione è costruita interamente con tecnologie Java native, senza l'utilizzo di framework moderni, rendendola un ottimo esercizio per la comprensione dei fondamenti dello sviluppo web. Include un sistema completo di gestione utenti, un carrello dinamico persistente tramite cookie, storico ordini, download della fattura in PDF e un pannello admin dedicato alla gestione di prodotti e ordini.
+
+## Funzionalità
+- 🔐 **Registrazione & Login** — Sistema di autenticazione utente sicuro
+- 🛒 **Carrello Dinamico** — Carrello persistente tra le sessioni tramite cookie
+- 💳 **Checkout** — Flusso di pagamento simulato tramite carta
+- 📦 **Storico Ordini** — Gli utenti possono visualizzare tutti gli ordini passati
+- 🧾 **Download Fattura** — Generazione di fatture in PDF per ogni ordine completato
+- 🛠️ **Pannello Admin** — Pannello dedicato alla gestione di prodotti e ordini
+
+## Autori
+Il progetto è stato sviluppato da:
+
+- **Simon Carbone**
+- **Silvana De Martino**
+- **Abdellatif El Abidi**
+
+## Tecnologie
+Il progetto è stato realizzato con l'aiuto di:
+
+![Java](https://img.icons8.com/color/48/java-coffee-cup-logo.png) **Java (Servlet)** - Linguaggio di programmazione server-side utilizzato per la logica di business e la gestione delle richieste.
+
+![HTML](https://img.icons8.com/color/48/html-5.png) **HTML5** - Linguaggio di markup utilizzato per la strutturazione delle pagine web.
+
+![CSS](https://img.icons8.com/color/48/css3.png) **CSS3** - Linguaggio di stile utilizzato per il design visivo dell'applicazione.
+
+![MySQL](https://img.icons8.com/color/48/mysql-logo.png) **MySQL** - Sistema di gestione di database relazionali utilizzato per la persistenza dei dati.
+
+![Apache Tomcat](https://img.icons8.com/color/48/tomcat.png) **Apache Tomcat 9** - Server web e contenitore servlet utilizzato per il deploy e l'esecuzione dell'applicazione.
+
+![Visual Studio Code](https://img.icons8.com/?size=48&id=9OGIyU8hrxW5&format=png&color=000000) **Visual Studio Code** - Editor di testo e ambiente di sviluppo integrato (IDE) utilizzato per scrivere, eseguire e debuggare il codice.
+
+## Progetto
+
+Per clonare il progetto **DiceEmpire** e testarlo localmente, segui i seguenti passaggi:
+
+📌 Prerequisiti
+
+- Assicurati di avere **Git** installato sul tuo sistema.
+- **Java 17** o superiore.
+- **Apache Tomcat 9.x**
+- **MySQL 8.x**
+- **Maven 3.x** (solo se vuoi compilare dai sorgenti)
+
+🔹 Clonazione del Repository
+
+Apri il terminale e digita il seguente comando:
+```
+git clone https://github.com/Zimuch/DiceEmpire.git
+```
+
+
+📦 Esegui con il .war precompilato:
+
+Scarica l'ultima release dalla pagina Releases.
+
+🗄️ Configurazione Database:
+
+Avvia il server MySQL
+
+Crea un nuovo database con il nome "diceempire"
+
+Importa il file SQL fornito:
+
+Cerca nel progetto la cartella "Database" , trova il file "Popolamento Database DiceEmpire v32.sql" e scaricalo.
+
+In MySQL Workbench: Tasto destro su "Server" -> "Data Import" -> "Import From Self-Contained File" -> Seleziona "Popolamento Database DiceEmpire v32.sql" -> "Start Import".
+
+🚀 Deploy su Tomcat 9:
+
+Copia DiceEmpire.war nella cartella webapps/ di Tomcat:
+```
+apache-tomcat-9.x\webapps\DiceEmpire.war
+```
+
+
+▶️ Avvia Tomcat:
+
+### Windows
+apache-tomcat-9.x\\bin\\startup.bat
+
+### Linux/Mac
+apache-tomcat-9.x/bin/startup.sh
+
+## Ad avvio completato:
+
+Attendi la conferma di avvio nel log:
+```
+INFO: Server startup in [x] ms
+```
+
+▶️ Apri nel browser:
+```
+http://localhost:8080/DiceEmpire/
+```
+
+## Contributors
+Al progetto hanno partecipato:
+
+<img src="https://contrib.rocks/image?repo=Zimuch/hAicker" />
+
+## Disclaimer
+Questo progetto è fornito a solo scopo informativo e accademico.
+L'autore non si assume alcuna responsabilità per eventuali usi impropri o danni derivanti dall'utilizzo di questo software.
+Il sistema di pagamento simulato non elabora transazioni reali ed è inteso esclusivamente a scopo dimostrativo.
