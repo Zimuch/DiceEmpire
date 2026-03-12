@@ -13,6 +13,7 @@ The project was developed by:
 
 - **Simon Carbone**
 - **Silvana De Martino**
+- **Abdellatif El Abidi**
 
 ## Technologies
 The project was built with the help of:
