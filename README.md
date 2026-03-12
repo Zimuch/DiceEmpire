@@ -8,6 +8,14 @@ The project was born from the need to explore the full development cycle of a we
 
 The application is built entirely with native Java technologies, without relying on modern frameworks, making it an excellent exercise in understanding the fundamentals of web development. It features a complete user management system, a dynamic cart persisted through cookies, order history, invoice download, and a dedicated admin panel for product and order management.
 
+## Features
+- 🔐 **Registration & Login** — Secure user authentication system
+- 🛒 **Dynamic Cart** — Shopping cart persisted across sessions via cookies
+- 💳 **Checkout** — Simulated card payment flow
+- 📦 **Order History** — Users can view all past orders
+- 🧾 **Invoice Download** — PDF invoice generation for each completed order
+- 🛠️ **Admin Panel** — Dedicated panel for managing products and orders
+- 
 ## Authors
 The project was developed by:
 
@@ -30,13 +38,7 @@ The project was built with the help of:
 
 ![Visual Studio Code](https://img.icons8.com/?size=48&id=9OGIyU8hrxW5&format=png&color=000000) **Visual Studio Code** - Text editor and integrated development environment (IDE) used to write, run, and debug the code.
 
-## Features
-- 🔐 **Registration & Login** — Secure user authentication system
-- 🛒 **Dynamic Cart** — Shopping cart persisted across sessions via cookies
-- 💳 **Checkout** — Simulated card payment flow
-- 📦 **Order History** — Users can view all past orders
-- 🧾 **Invoice Download** — PDF invoice generation for each completed order
-- 🛠️ **Admin Panel** — Dedicated panel for managing products and orders
+
 
 ## Project
 
